@@ -18,7 +18,9 @@ export const metadata = {
   title: 'Wonderful Onwuchekwa | Product Manager',
   description: 'Shipping products users love and businesses need proven across logistics, fintech, and SaaS with measurable impact.',
   icons: {
-    icon: '/favicon.ico',
+    icon: '/favicon.ico', // Explicitly points to public/favicon.ico
+    shortcut: '/favicon.ico',
+    apple: '/favicon.ico',
   },
 };
 

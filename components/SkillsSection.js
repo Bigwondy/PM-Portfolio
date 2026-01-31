@@ -7,11 +7,11 @@ const skillGroups = [
   },
   {
     category: "Design & Execution",
-    skills: ["Wireframing (Figma)", "Agile (Scrum/Kanban)", "Backlog Management", "Usability Testing"]
+    skills: ["Wireframing (Figma)", "Agile (Scrum/Kanban)", "Backlog Management", "Usability Testing", "Product Testing"]
   },
   {
     category: "Technical",
-    skills: ["SQL", "API Documentation", "REST APIs", "SDLC", "HTML/CSS", "Git"]
+    skills: ["System Design", "SQL", "API Documentation", "REST APIs", "SDLC", "HTML/CSS", "Git"]
   },
   {
     category: "Soft Skills",
