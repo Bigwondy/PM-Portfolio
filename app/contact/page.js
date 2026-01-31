@@ -1,3 +1,5 @@
+'use client';
+
 import styles from './contact.module.css';
 import { Mail, Calendar, ArrowRight, Loader2 } from 'lucide-react';
 import { useState } from 'react';
