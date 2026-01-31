@@ -1,0 +1,103 @@
+.card {
+  background-color: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 2rem;
+  transition: var(--transition);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  border-color: var(--primary);
+  background-color: var(--card-hover);
+}
+
+.imageWrapper {
+  width: calc(100% + 4rem); /* Full width including padding offset */
+  height: 220px;
+  position: relative;
+  overflow: hidden;
+  border-bottom: 1px solid var(--border);
+  margin: -2rem -2rem 1.5rem -2rem; /* Negate card padding to go edge-to-edge */
+}
+
+.image {
+  object-fit: cover;
+  transition: transform 0.5s ease;
+  width: 100%;
+  height: 100%;
+  display: block; /* Removes bottom spacing */
+}
+
+.card:hover .image {
+  transform: scale(1.05);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.company {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--secondary);
+  font-weight: 700;
+}
+
+.externalLink {
+  color: var(--muted);
+  transition: var(--transition);
+}
+
+.externalLink:hover {
+  color: var(--foreground);
+}
+
+.title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--foreground);
+}
+
+.description {
+  color: var(--muted);
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  flex-grow: 1;
+}
+
+.footer {
+  margin-top: auto;
+}
+
+.readMore {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  color: var(--primary);
+  transition: var(--transition);
+}
+
+.readMore:hover {
+  color: var(--primary-hover);
+  gap: 0.75rem;
+}
+
+.titleLink {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.titleLink:hover .title {
+  color: var(--primary);
+  text-decoration: underline;
+}

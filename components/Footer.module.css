@@ -1,0 +1,54 @@
+.footer {
+  padding: 4rem 0 2rem;
+  border-top: 1px solid var(--border);
+  background-color: var(--background);
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.name {
+  font-size: 1.25rem;
+  color: var(--foreground);
+  margin-bottom: 0.25rem;
+}
+
+.role {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.socials {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.socialLink {
+  color: var(--muted);
+  transition: var(--transition);
+}
+
+.socialLink:hover {
+  color: var(--primary);
+  transform: translateY(-3px);
+}
+
+.copyright {
+  text-align: center;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 0.875rem;
+}
+
+@media (max-width: 640px) {
+  .content {
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+  }
+}

@@ -1,0 +1,132 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh; /* More breathing room */
+  text-align: center;
+  padding-top: 4rem;
+}
+
+.content {
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.badge {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  color: var(--secondary);
+}
+
+.badgeDot {
+  width: 8px;
+  height: 8px;
+  background-color: #10b981; /* Green status dot */
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px rgba(16, 185, 129, 0.2);
+}
+
+.title {
+  font-size: clamp(3.5rem, 8vw, 6rem); /* Massive responsive text */
+  line-height: 1;
+  margin-bottom: 2.5rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  font-family: var(--font-heading);
+}
+
+
+.imageWrapper {
+  margin-bottom: 2.5rem;
+  position: relative;
+  width: 240px;
+  height: 240px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 2px solid var(--border);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+.profileImage {
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+.role {
+  color: var(--muted);
+  font-weight: 400;
+}
+
+.highlight {
+  color: var(--primary); /* Solid color is often cleaner than gradient for text */
+}
+
+.tagline {
+  font-size: clamp(1.1rem, 3vw, 1.5rem);
+  color: var(--muted);
+  margin-bottom: 2.5rem;
+  line-height: 1.5;
+}
+
+.accent {
+  color: var(--foreground);
+  font-weight: 600;
+  border-bottom: 2px solid var(--secondary);
+}
+
+.actions {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.primaryBtn {
+  padding: 1rem 2rem;
+  background-color: var(--primary);
+  color: white;
+  border-radius: var(--radius);
+  font-weight: 600;
+  transition: var(--transition);
+  box-shadow: 0 4px 14px 0 rgba(99, 102, 241, 0.39);
+}
+
+.primaryBtn:hover {
+  background-color: var(--primary-hover);
+  transform: translateY(-2px);
+}
+
+.secondaryBtn {
+  padding: 1rem 2rem;
+  background-color: transparent;
+  color: var(--foreground);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  font-weight: 600;
+  transition: var(--transition);
+}
+
+.secondaryBtn:hover {
+  background-color: var(--border);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 640px) {
+  .actions {
+    flex-direction: column;
+    width: 100%;
+  }
+}
