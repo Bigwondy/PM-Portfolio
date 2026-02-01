@@ -32,9 +32,9 @@
 .badgeDot {
   width: 8px;
   height: 8px;
-  background-color: #10b981; /* Green status dot */
+  background-color: var(--primary); /* Blue status dot */
   border-radius: 50%;
-  box-shadow: 0 0 0 2px rgba(16, 185, 129, 0.2);
+  box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.2);
 }
 
 .title {
@@ -85,7 +85,7 @@
 .accent {
   color: var(--foreground);
   font-weight: 600;
-  border-bottom: 2px solid var(--secondary);
+  border-bottom: 2px solid var(--primary);
 }
 
 .actions {
