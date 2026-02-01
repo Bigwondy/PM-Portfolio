@@ -33,12 +33,12 @@ export const projects = [
   },
   {
     id: "lyra-cardportal",
-    title: "Lyra CardPortal",
+    title: "LYRA CMS",
     company: "Lyra",
     product: "Bank Card Operations Platform",
     problem: "Banks struggled with fragmented, manual card lifecycle processes, leading to delays, poor visibility, and compliance risks as volumes grew.",
     role: "Led discovery, defined end-to-end issuance workflows, and authored functional requirements to align banking operations with technical constraints.",
-    solution: "Defined Lyra CardPortal, a centralized platform digitizing card operations with role-based workflows, real-time stock management, and core banking integrations.",
+    solution: "Defined LYRA CMS, a centralized platform digitizing card operations with role-based workflows, real-time stock management, and core banking integrations.",
     metrics: [
       "Improved transparency across issuance workflows",
       "Reduced manual coordination significantly",
