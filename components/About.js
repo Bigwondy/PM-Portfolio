@@ -43,7 +43,7 @@ export default function About() {
                 <span className={styles.statLabel}>Products Shipped</span>
               </div>
               <div className={styles.statCard}>
-                <span className={styles.statValue}>35%</span>
+                <span className={styles.statValue}>70%</span>
                 <span className={styles.statLabel}>Efficiency Gain</span>
               </div>
             </div>
