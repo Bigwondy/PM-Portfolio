@@ -48,7 +48,7 @@
 }
 
 .link:hover {
-  color: var(--foreground);
+  color: var(--primary);
 }
 
 .ctaWrapper {
