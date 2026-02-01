@@ -23,8 +23,8 @@ export default function Home() {
           </div>
           
           <div className={styles.projectGrid}>
-            {projects.map((project) => (
-              <ProjectCard key={project.id} project={project} />
+            {projects.map((project, index) => (
+              <ProjectCard key={project.id} project={project} index={index} />
             ))}
           </div>
         </div>
