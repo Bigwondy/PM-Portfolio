@@ -64,7 +64,7 @@
 }
 
 .statCard:hover {
-  border-color: var(--secondary);
+  border-color: var(--primary);
   background-color: var(--card-hover);
 }
 
@@ -72,7 +72,7 @@
   display: block;
   font-size: 2.5rem;
   font-weight: 800;
-  color: var(--secondary);
+  color: var(--primary);
   font-family: var(--font-heading);
   margin-bottom: 0.5rem;
 }
