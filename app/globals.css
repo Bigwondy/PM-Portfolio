@@ -11,6 +11,8 @@
   --border: #e4e4e7;
   --card: #f4f4f5;
   --card-hover: #e4e4e7;
+  --navbar-bg: rgba(255, 255, 255, 0.85);
+  --section-bg: #f8fafc;
   
   --font-main: 'Inter', system-ui, -apple-system, sans-serif;
   --font-heading: 'Outfit', sans-serif;
@@ -31,6 +33,8 @@
   --border: #27272a;
   --card: #18181b;
   --card-hover: #27272a;
+  --navbar-bg: rgba(9, 9, 11, 0.85);
+  --section-bg: rgba(24, 24, 27, 0.3);
 }
 
 * {
