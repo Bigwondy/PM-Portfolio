@@ -25,7 +25,7 @@ export const projects = [
     solution: "Introduced centralization dashboards and business-oriented workflows to improve visibility across multiple orders.",
     metrics: [
       "30% reduction in support tickets",
-      "35% improvement in coordination efficiency",
+      "70% improvement in coordination efficiency",
       "20% increase in business user retention"
     ],
     liveLink: "https://business.picckr.com",
