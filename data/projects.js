@@ -17,7 +17,7 @@ export const projects = [
   },
   {
     id: "picckr-business",
-    title: "PicckR for Business",
+    title: "PicckR 4 Business(B2B)",
     company: "PicckR",
     product: "B2B Logistics Platform",
     problem: "SMEs and enterprise customers struggled with fragmented workflows and heavy manual coordination, resulting in operational inefficiencies and lower retention.",
