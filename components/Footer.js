@@ -19,7 +19,7 @@ export default function Footer() {
             <a href="mailto:wondy.onwuchekwa@gmail.com" className={styles.socialLink}>
               Email
             </a>
-            <a href="https://docs.google.com/document/d/1iwMOW2jaeBRe9HguON4ThXoN4_zYG99cKHF_sCGzHW4/edit?usp=sharing" target="_blank" rel="noopener noreferrer" className={styles.socialLink}>
+            <a href="https://drive.google.com/file/d/18fwKC9kNBlEo7IOeLYiPhcYHKqqrH148/view?usp=sharing" target="_blank" rel="noopener noreferrer" className={styles.socialLink}>
               Resume
             </a>
           </div>
