@@ -27,7 +27,7 @@ export default function Header() {
     { name: 'About', href: '#about' },
   ];
 
-  const resumeLink = "https://docs.google.com/document/d/1iwMOW2jaeBRe9HguON4ThXoN4_zYG99cKHF_sCGzHW4/edit?usp=sharing";
+  const resumeLink = "https://drive.google.com/file/d/18fwKC9kNBlEo7IOeLYiPhcYHKqqrH148/view?usp=sharing";
 
   return (
     <>

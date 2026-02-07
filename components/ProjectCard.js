@@ -54,6 +54,12 @@ export default function ProjectCard({ project, index = 0 }) {
         </Link>
         
         <p className={styles.description}>{project.problem.substring(0, 150)}...</p>
+        
+        <div className={styles.footer}>
+          <Link href={`/projects/${project.id}`} className={styles.readMore}>
+            Read More <ArrowRight size={16} />
+          </Link>
+        </div>
       </div>
     </motion.div>
   );
